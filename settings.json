@@ -1,0 +1,66 @@
+{
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "workbench.colorTheme": "pustota",
+    "notebook.lineNumbers": "on",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.automationProfile.linux": {
+        "path": "/usr/bin/bash"
+    },
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "dbcode.connections": [
+        {
+            "connectionId": "bxoNSmL2Pv1b-p4aXORmT",
+            "name": "fastapi_ecommerce",
+            "driver": "postgres",
+            "connectionType": "host",
+            "host": "localhost",
+            "port": 5432,
+            "ssl": false,
+            "username": "ecommerce",
+            "password": "",
+            "savePassword": "secretStorage",
+            "connectionTimeout": 30
+        }
+    ],
+    "workbench.editorAssociations": {
+        "*.csv": "gc-excelviewer-csv-editor"
+    },
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+        "/tmp/postman-http-request-post-response.instructions.md": true,
+        "/tmp/postman-http-request-pre-request.instructions.md": true,
+        "/tmp/postman-collections-post-response.instructions.md": true,
+        "/tmp/postman-collections-pre-request.instructions.md": true,
+        "/tmp/postman-folder-post-response.instructions.md": true,
+        "/tmp/postman-folder-pre-request.instructions.md": true
+    },
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    
+    // Main editor:
+    "breadcrumbs.enabled": false,
+    "workbench.editor.labelFormat": "medium",
+    "workbench.editor.showTabs": "single",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "hidden"
+
+    // "window.clickThroughInactive": false,
+    // "window.newWindowDimensions": "maximized",
+    // "workbench.statusBar.visible": false,
+    // "workbench.tips.enabled": false,
+    // "workbench.tree.renderIndentGuides": "none",
+    // "workbench.tree.enableStickyScroll": false,
+    // "workbench.editor.highlightModifiedTabs": false,
+    // "workbench.editor.showIcons": false,
+    // "workbench.editor.decorations.badges": false,
+    // "workbench.editor.decorations.colors": false,
+    // "workbench.editor.enablePreview": false,
+    // "workbench.editor.empty.hint": "hidden",
+    // "workbench.layoutControl.enabled": false
+}
