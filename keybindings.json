@@ -74,5 +74,9 @@
     {
         "key": "alt+d",
         "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "shift+b",
+        "command": "workbench.action.toggleActivityBarVisibility"
     }
 ]
