@@ -46,7 +46,6 @@
     // Main editor:
     "breadcrumbs.enabled": false,
     "workbench.editor.labelFormat": "medium",
-    "workbench.editor.showTabs": "single",
     "workbench.sideBar.location": "right",
     "workbench.activityBar.location": "hidden"
 
