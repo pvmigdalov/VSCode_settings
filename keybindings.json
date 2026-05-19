@@ -5,11 +5,11 @@
         "command": "outline.focus"
     },
     {
-        "key": "shift+alt+d",
+        "key": "ctrl+alt+d",
         "command": "workbench.view.extension.dbcodeActivitybarContainer"
     },
     {
-        "key": "shift+alt+c",
+        "key": "ctrl+alt+c",
         "command": "workbench.view.extension.containersView"
     },
     {
@@ -76,7 +76,7 @@
         "command": "workbench.action.navigateForward"
     },
     {
-        "key": "alt+shift+b",
+        "key": "ctrl+alt+b",
         "command": "workbench.action.toggleActivityBarVisibility"
     },
     {
@@ -147,7 +147,7 @@
         "command": "ruff.executeOrganizeImports"
     },
     {
-        "key": "shift+alt+t",
+        "key": "ctrl+alt+t",
         "command": "workbench.view.extension.test"
     }
 ]
