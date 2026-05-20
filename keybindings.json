@@ -119,7 +119,7 @@
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+'",
+        "key":  "ctrl+[Quote]",
         "command": "editor.action.quickFix",
         "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
     },
@@ -129,7 +129,7 @@
         "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+'",
+        "key":  "ctrl+[Quote]",
         "command": "acceptSelectedCodeAction",
         "when": "codeActionMenuVisible"
     },
@@ -149,5 +149,15 @@
     {
         "key": "ctrl+alt+t",
         "command": "workbench.view.extension.test"
+    },
+    {
+        "key": "shift+alt+up",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
     }
 ]
