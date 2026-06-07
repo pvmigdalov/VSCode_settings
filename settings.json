@@ -1,7 +1,14 @@
 {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.fontFamily": "'JetBrains Mono', 'Fira Code', monospace",
+    "editor.fontLigatures": true,
     "[python]": {
         "editor.formatOnType": true,
-        "editor.defaultFormatter": "charliermarsh.ruff"
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "diffEditor.ignoreTrimWhitespace": true
     },
     "workbench.colorTheme": "pustota",
     "notebook.lineNumbers": "on",
@@ -11,42 +18,9 @@
     },
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
-    "dbcode.connections": [
-        {
-            "connectionId": "bxoNSmL2Pv1b-p4aXORmT",
-            "name": "fastapi_ecommerce",
-            "driver": "postgres",
-            "connectionType": "host",
-            "host": "localhost",
-            "port": 5432,
-            "ssl": false,
-            "username": "ecommerce",
-            "password": "",
-            "savePassword": "secretStorage",
-            "connectionTimeout": 30
-        },
-        {
-            "connectionId": "G_SgKQBctd-aParQLOzMo",
-            "name": "short_urls",
-            "driver": "postgres",
-            "connectionType": "host",
-            "host": "pg_url_shortener",
-            "port": 5433,
-            "ssl": false,
-            "username": "admin",
-            "password": "",
-            "savePassword": "secretStorage",
-            "database": "short_urls",
-            "readOnly": false,
-            "postConnectionSqlType": "inline",
-            "connectionTimeout": 30
-        }
-    ],
     "workbench.editorAssociations": {
         "*.csv": "gc-excelviewer-csv-editor"
     },
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontLigatures": true,
     "chat.instructionsFilesLocations": {
         ".github/instructions": true,
         // "/tmp/postman-http-request-post-response.instructions.md": true,
@@ -71,8 +45,8 @@
         "implementAbstractClasses": true,
         "generateSymbol": true,
         "convertFormatString": true
-    }
-
+    },
+    "workbench.activityBar.location": "top",
     // "window.clickThroughInactive": false,
     // "window.newWindowDimensions": "maximized",
     // "workbench.statusBar.visible": false,
