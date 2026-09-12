@@ -33,6 +33,8 @@
     "workbench.sideBar.location": "right",
     "debug.breakpointsView.presentation": "tree",
     "ruff.configuration": "",
+    "ty.inlayHints.variableTypes": false,
+    "ty.inlayHints.callArgumentNames": false,
     "explorer.confirmDragAndDrop": false,
     "python.analysis.autoImportCompletions": true,
     "python.languageServer": "Jedi",
