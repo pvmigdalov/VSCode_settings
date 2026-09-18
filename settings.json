@@ -5,6 +5,10 @@
     "editor.guides.bracketPairs": "active",
     "editor.fontFamily": "'JetBrains Mono', 'Fira Code', monospace",
     "editor.fontLigatures": true,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "python": true
+    },
     "[python]": {
         "editor.formatOnType": true,
         "editor.defaultFormatter": "charliermarsh.ruff",
