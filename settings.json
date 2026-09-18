@@ -20,15 +20,15 @@
     "workbench.editorAssociations": {
         "*.csv": "gc-excelviewer-csv-editor"
     },
-    "chat.instructionsFilesLocations": {
-        ".github/instructions": true,
-        // "/tmp/postman-http-request-post-response.instructions.md": true,
-        // "/tmp/postman-http-request-pre-request.instructions.md": true,
-        // "/tmp/postman-collections-post-response.instructions.md": true,
-        // "/tmp/postman-collections-pre-request.instructions.md": true,
-        // "/tmp/postman-folder-post-response.instructions.md": true,
-        // "/tmp/postman-folder-pre-request.instructions.md": true
-    },
+    // "chat.instructionsFilesLocations": {
+    //     ".github/instructions": true,
+    //     // "/tmp/postman-http-request-post-response.instructions.md": true,
+    //     // "/tmp/postman-http-request-pre-request.instructions.md": true,
+    //     // "/tmp/postman-collections-post-response.instructions.md": true,
+    //     // "/tmp/postman-collections-pre-request.instructions.md": true,
+    //     // "/tmp/postman-folder-post-response.instructions.md": true,
+    //     // "/tmp/postman-folder-pre-request.instructions.md": true
+    // },
     "workbench.editor.labelFormat": "medium",
     "workbench.sideBar.location": "right",
     "debug.breakpointsView.presentation": "tree",
@@ -61,6 +61,7 @@
             // "breadcrumb.background": "#000000"
         },
         "[Wired]": {
+            // "editor.background": "#040201",
             "editorBracketHighlight.foreground1": "#ff5c8a",
             "editorBracketHighlight.foreground2": "#fa8588",
             "editorBracketHighlight.foreground3": "#ffa0a0",
@@ -119,6 +120,42 @@
                     "settings": {
                         "foreground": "#ff5c8a",
                         "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.readwrite",
+                        "eta.object-literal.key",
+                        "support.variable.property",
+                        "support.variable.object.process",
+                        "support.variable.object.node"
+                    ],
+                    "settings": {
+                        "foreground": "#e0afc0",
+                    }
+                },
+                {
+                    "scope": [
+                        "support.type.property-name.json.comments",
+                        "string.json.comments",
+                        "meta.structure.dictionary.json.comments",
+                        "meta.structure.array.json.comments",
+                        "meta.structure.dictionary.value.json.comments",
+                        "meta.structure.dictionary.json.comments",
+                        "meta.structure.dictionary.value.json.comments",
+                        "meta.structure.dictionary.json.comments",
+                        "meta.structure.dictionary.value.json.comments",
+                        "meta.structure.dictionary.json.comments",
+                        "source.json.comments",
+                        "support.type.property-name.json",
+                        "string.json",
+                        "meta.structure.dictionary.json",
+                        "meta.structure.dictionary.value.json",
+                        "meta.structure.dictionary.json",
+                        "source.json"
+                    ],
+                    "settings": {
+                        "foreground": "#e0afc0",
                     }
                 }
             ]
