@@ -66,6 +66,8 @@
         },
         "[Wired]": {
             // "editor.background": "#040201",
+            "terminalCursor.foreground": "#ff5c8a",
+            "terminalCursor.background": "#000000",
             "editorBracketHighlight.foreground1": "#ff5c8a",
             "editorBracketHighlight.foreground2": "#fa8588",
             "editorBracketHighlight.foreground3": "#ffa0a0",
