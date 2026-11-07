@@ -5,7 +5,7 @@
         "command": "outline.focus"
     },
     {
-        "key": "ctrl+alt+d",
+        "key": "ctrl+shift+9",
         "command": "workbench.view.extension.dbcodeActivitybarContainer"
     },
     {
@@ -147,7 +147,7 @@
         "command": "ruff.executeOrganizeImports"
     },
     {
-        "key": "shift+alt+t",
+        "key": "ctrl+shift+8",
         "command": "workbench.view.extension.test"
     },
     {
@@ -163,5 +163,15 @@
     {
         "key": "ctrl+shift+0",
         "command": "workbench.view.extension.references-view"
+    },
+    {
+        "key": "ctrl+shift+[BracketLeft]",
+        "command": "editor.fold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+[BracketRight]",
+        "command": "editor.unfold",
+        "when": "editorTextFocus && foldingEnabled"
     }
 ]
