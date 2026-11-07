@@ -119,7 +119,7 @@
         "when": "terminalFocus"
     },
     {
-        "key":  "ctrl+[Quote]",
+        "key": "ctrl+[Quote]",
         "command": "editor.action.quickFix",
         "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
     },
@@ -129,7 +129,7 @@
         "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly"
     },
     {
-        "key":  "ctrl+[Quote]",
+        "key": "ctrl+[Quote]",
         "command": "acceptSelectedCodeAction",
         "when": "codeActionMenuVisible"
     },
@@ -147,7 +147,7 @@
         "command": "ruff.executeOrganizeImports"
     },
     {
-        "key": "ctrl+alt+t",
+        "key": "shift+alt+t",
         "command": "workbench.view.extension.test"
     },
     {
@@ -159,5 +159,9 @@
         "key": "shift+alt+down",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+0",
+        "command": "workbench.view.extension.references-view"
     }
 ]

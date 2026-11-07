@@ -22,7 +22,9 @@
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "workbench.editorAssociations": {
-        "*.csv": "gc-excelviewer-csv-editor"
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.csv": "gc-excelviewer-csv-editor",
+        "*.md": "vscode.markdown.editor"
     },
     // "chat.instructionsFilesLocations": {
     //     ".github/instructions": true,
@@ -41,7 +43,7 @@
     "ty.inlayHints.callArgumentNames": false,
     "explorer.confirmDragAndDrop": false,
     "python.analysis.autoImportCompletions": true,
-    "python.languageServer": "Jedi",
+    "python.languageServer": "None",
     "python.analysis.typeCheckingMode": "basic",
     "python.testing.pytestEnabled": true,
     "python.analysis.aiCodeActions": {
@@ -165,6 +167,42 @@
                     }
                 }
             ]
+        },
+        "[Wired Brighter]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "storage.type.function.python",
+                        "storage.type.function.async.python",
+                        "storage.type.class.python",
+                        "keyword.control.flow.python",
+                        "keyword.control.async.python",
+                        "storage.modifier.async.python"
+                    ],
+                    "settings": {
+                        "foreground": "#ff5c8a",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        },
+        "[sakura sun]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "storage.type.function.python",
+                        "storage.type.function.async.python",
+                        "storage.type.class.python",
+                        "keyword.control.flow.python",
+                        "keyword.control.async.python",
+                        "storage.modifier.async.python"
+                    ],
+                    "settings": {
+                        "foreground": "#ff5c8a",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
         }
     },
     "dbcode.connections": [
@@ -191,7 +229,10 @@
             }
         }
     ],
-    "workbench.colorTheme": "Wired",
+    "viraTheme.accent": "",
+    "viraTheme.syncProductIcons": false,
+    "workbench.colorTheme": "Radical",
+    "ruff.format.preview": true,
     // "window.clickThroughInactive": false,
     // "window.newWindowDimensions": "maximized",
     // "workbench.statusBar.visible": false,
